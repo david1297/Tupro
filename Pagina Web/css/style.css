@@ -146,11 +146,35 @@ body.mobile-nav-active #mobile-nav-toggle{color:#fff;}
 #featured-services .portfolio-item figure .link-details{right:calc(50% - 38px);top:calc(50% - 18px);}
 #featured-services .portfolio-item figure:hover .link-preview{opacity:1;left:calc(50% - 20px);}
 #featured-services .portfolio-item figure:hover .link-details{opacity:1;right:calc(50% - 20px);}
+
 #featured-services .portfolio-item .portfolio-info{background:#fff;text-align:center;padding:30px;height:90px;border-radius:0 0 0 0px;}
 #featured-services .portfolio-item .portfolio-info h4{font-size:18px;line-height:1px;font-weight:700;margin-bottom:18px;padding-bottom:0;}
 #featured-services .portfolio-item .portfolio-info h4 a{color:#333;}
 #featured-services .portfolio-item .portfolio-info h4 a:hover{color:#00a3e3;}
 #featured-services .portfolio-item .portfolio-info p{padding:0;margin:0;color:#b8b8b8;font-weight:500;font-size:14px;text-transform:uppercase;}
+
+#featured-services .portfolio-item .portfolio-sub{background:#fff;text-align:center;padding:15px;border-radius:0 0 0 0px;	}
+#featured-services .portfolio-item .portfolio-sub h4{font-size:18px;line-height:1px;font-weight:700;margin-bottom:18px;padding-bottom:0; padding:15px;}
+#featured-services .portfolio-item .portfolio-sub h4 a{color:rgb(254,254,254);}
+#featured-services .portfolio-item .portfolio-sub h4 a:hover{color:red;}
+#featured-services .portfolio-item .portfolio-sub p{padding:0;margin:0;color:#b8b8b8;font-weight:500;font-size:14px;text-transform:uppercase;}
+
+#featured-services .portfolio-item .dos-lineas{background:#fff;text-align:center;padding:15px;border-radius:0 0 0 0px;}
+#featured-services .portfolio-item .dos-lineas h4{font-size:18px;line-height:1px;font-weight:700;margin-bottom:18px;padding-bottom:0;}
+#featured-services .portfolio-item .dos-lineas h4 a{color:rgb(254,254,254);}
+#featured-services .portfolio-item .dos-lineas h4 a:hover{color:red;}
+#featured-services .portfolio-item .dos-lineas p{padding:0;margin:0;color:#b8b8b8;font-weight:500;font-size:14px;text-transform:uppercase;}
+@media (min-width:768px){
+#featured-services .portfolio-item .dos-lineas{height:90px;}
+#featured-services .portfolio-item .portfolio-sub{height:90px;}
+}
+.sub{
+
+height:60px;	
+}
+
+
+
 #featured-services{background:rgb(0,46,93);}
 #featured-services .box{padding:30px 20px;}
 #featured-services .box-bg{background-image:linear-gradient(0deg, #000000 0%, #242323 50%, #000000 100%);}
