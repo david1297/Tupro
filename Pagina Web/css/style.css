@@ -15,7 +15,7 @@ font-family: Gotham Thin;
 src: url(Gotham-Thin.otf);
 }
 
-.no-gutters{margin-right:0;margin-left:0;> .col,
+.no-gutters{margin-right:0;margin-left:0;padding-right:0;padding-left:0;> .col,
 > [class*="col-"]{padding-right:0;padding-left:0;}
 }
 .header-s{margin-right:0;margin-left:0;padding-right:0;padding-left:0;}
@@ -200,10 +200,36 @@ height:60px;
 #elegirnos h1{font-family: Gotham Bold; color: rgb(254,254,254);text-align: center;}
 #elegirnos h3{font-family: Gotham Bold; color: rgb(254,254,254);text-align: center;}
 
-#skills{padding:60px 0;;}
+#skills{padding:60px 0;}
 #skills h1{font-family: Gotham Black; color: rgb(0,46,93);text-align: center;}
-#skills h4{font-family: Gotham Light; color: rgb(0,0,0);text-align: justify;
-    top: 50%;}
+#skills h4{font-family: Gotham Light; color: rgb(0,0,0);text-align: justify;top: 50%;}
+
+#descripcion{padding:60px 0;}
+#descripcion .BRANDING h1{font-family: Gotham Black; color: rgb(239,127,26);text-align: center;}
+#descripcion .PUBLICIDAD h1{font-family: Gotham Black; color: rgb(65,48,128);text-align: center; }
+#descripcion h4{font-family: Gotham Light; color: rgb(0,0,0);text-align: justify;top: 50%;}
+
+.naranja {
+	padding:60px 60px;
+	background: rgb(239,127,26); 
+	height: 500px;
+
+}
+.naranja ul li {font-family: Gotham Black; color: rgb(254,254,254);text-align: left;font-size: 18px}
+.violeta {
+	padding:60px 60px;
+	background: rgb(65,48,128); 
+	height: 500px;
+
+}
+.violeta ul li {font-family: Gotham Black; color: rgb(254,254,254);text-align: left; font-size: 18px}
+#dise{
+  background: url(../img/Diseño/1.png)  center center;
+  background-size:cover;padding:200px 0;
+}
+#dise h1{font-family: Gotham Bold; color: rgb(254,254,254);text-align: center;}
+#dise h3{font-family: Gotham Bold; color: rgb(254,254,254);text-align: center;}
+
 
 #portfolio{background:rgb(5,140,204);padding:60px 0;}
 #portfolio #portfolio-flters{padding:0;margin:5px 0 35px 0;list-style:none;text-align:center;}
