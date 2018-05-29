@@ -33,7 +33,7 @@ body{background:#fff;color:#666666;font-family: Gotham Light;}
 a{color:#000;transition:0.5s;}
 a:hover, a:active, a:focus{color:#00a3e3;outline:none;text-decoration:none;}
 p{padding:0;margin:0 0 30px 0;}
-h1, h2, h3, h4, h5, h6{font-family: Gotham Black;font-weight:400;margin:0 0 20px 0;padding:0;}
+h1, h2, h3, h4, h5, h6{font-family: Gotham Bold;font-weight:400;margin:0 0 20px 0;padding:0;}
 .back-to-top{position:fixed;display:none;background:#00a3e3;color:#fff;display:inline-block;width:44px;height:44px;text-align:center;line-height:1;font-size:16px;border-radius:50%;right:15px;bottom:15px;transition:background 0.5s;z-index:11;}
 .back-to-top i{padding-top:12px;color:#fff;}
 @media (max-width:768px){.back-to-top{bottom:15px;}
@@ -90,20 +90,21 @@ h1, h2, h3, h4, h5, h6{font-family: Gotham Black;font-weight:400;margin:0 0 20px
 .nav-menu ul ul{top:0;left:100%;}
 .nav-menu ul li{min-width:180px;}
 .sf-arrows .sf-with-ul{padding-right:30px;}
-.sf-arrows .sf-with-ul:after{content:"\f107";position:absolute;right:15px;font-family: Gotham Light;font-style:normal;font-weight:normal;}
-.sf-arrows ul .sf-with-ul:after{content:"\f105";}
+.sf-arrows .sf-with-ul:after{content:"";position:absolute;right:15px;font-family: Gotham Light;font-style:normal;font-weight:normal;}
+.sf-arrows ul .sf-with-ul:after{content:"";}
 #nav-menu-container{float:right;margin:center;padding-top:20px}
 @media (min-width:1024px){#nav-menu-container{padding-right:60px;}
 }
 @media (max-width:768px){#nav-menu-container{display:none;}
 }
+@media (max-width:767px){.hidden-xs{display:none!important}}
 .nav-menu a{padding:0 8px 10px 8px;text-decoration:none;display:inline-block;color:#fff;font-family: Gotham Bold;font-weight:700;font-size:16px;text-transform:uppercase;outline:none;}
 .nav-menu li:hover > a, .nav-menu > .menu-active > a{color:rgb(239,127,26);}
 .nav-menu > li{margin-left:10px;}
-.nav-menu ul{margin:4px 0 0 0;padding:10px;box-shadow:0px 0px 30px rgba(127, 137, 161, 0.25);background:#fff;}
+.nav-menu ul{margin:30px 0 0 0;padding:20px;background:rgba(0, 46, 93, 0.9);}
 .nav-menu ul li{transition:0.3s;}
-.nav-menu ul li a{padding:10px;color:#333;transition:0.3s;display:block;font-size:13px;text-transform:none;}
-.nav-menu ul li:hover > a{color:#00a3e3;}
+.nav-menu ul li a{padding:10px;color:rgb(254,254,254);transition:0.3s;display:block;font-size:13px;text-transform:none;}
+.nav-menu ul li:hover > a{color:rgb(239,127,26)}
 .nav-menu ul ul{margin:0;}
 #mobile-nav-toggle{position:fixed;right:0;top:0;z-index:999;margin:20px 20px 0 0;border:0;background:none;font-size:24px;display:none;transition:all 0.4s;outline:none;cursor:pointer;}
 #mobile-nav-toggle i{color:#fff;}
@@ -116,9 +117,9 @@ h1, h2, h3, h4, h5, h6{font-family: Gotham Black;font-weight:400;margin:0 0 20px
 #mobile-nav ul li a:hover{color:#fff;}
 #mobile-nav ul li li{padding-left:30px;}
 #mobile-nav ul .menu-has-children i{position:absolute;right:0;z-index:99;padding:15px;cursor:pointer;color:#fff;}
-#mobile-nav ul .menu-has-children i.fa-chevron-up{color:#00a3e3;}
+#mobile-nav ul .menu-has-children i.fa-chevron-up{color:rgb(239,127,26);}
 #mobile-nav ul .menu-has-children li a{text-transform:none;}
-#mobile-nav ul .menu-item-active{color:#00a3e3;}
+#mobile-nav ul .menu-item-active{color:rgb(239,127,26)}
 #mobile-body-overly{width:100%;height:100%;z-index:997;top:0;left:0;position:fixed;background:rgba(0,0,0, 0.7);display:none;}
 body.mobile-nav-active{overflow:hidden;}
 body.mobile-nav-active #mobile-nav{left:0;}
@@ -170,7 +171,7 @@ body.mobile-nav-active #mobile-nav-toggle{color:#fff;}
 }
 .sub{
 
-height:60px;	
+height:60px;
 }
 
 
@@ -204,25 +205,36 @@ height:60px;
 #skills h1{font-family: Gotham Black; color: rgb(0,46,93);text-align: center;}
 #skills h4{font-family: Gotham Light; color: rgb(0,0,0);text-align: justify;top: 50%;}
 
-#descripcion{padding:60px 0;}
-#descripcion .BRANDING h1{font-family: Gotham Black; color: rgb(239,127,26);text-align: center;}
-#descripcion .PUBLICIDAD h1{font-family: Gotham Black; color: rgb(65,48,128);text-align: center; }
-#descripcion h4{font-family: Gotham Light; color: rgb(0,0,0);text-align: justify;top: 50%;}
+.descripcion{padding:60px 0;}
+.descripcion .f-naranja h1{font-family: Gotham Black; color: rgb(239,127,26);text-align: center;}
+.descripcion .f-violeta h1{font-family: Gotham Black; color: rgb(65,48,128);text-align: center; }
+.descripcion .f-azul-claro h1{font-family: Gotham Black; color: rgb(5,140,204);text-align: center;}
+.descripcion .f-verde h1{font-family: Gotham Black; color: rgb(81,201,12);text-align: center; }
+.descripcion h4{font-family: Gotham Light; color: rgb(0,0,0);text-align: justify;top: 50%;}
 
 .naranja {
 	padding:60px 60px;
-	background: rgb(239,127,26); 
+	background: rgb(239,127,26);
 	height: 500px;
 
 }
-.naranja ul li {font-family: Gotham Black; color: rgb(254,254,254);text-align: left;font-size: 18px}
 .violeta {
 	padding:60px 60px;
-	background: rgb(65,48,128); 
+	background: rgb(65,48,128);
 	height: 500px;
-
 }
-.violeta ul li {font-family: Gotham Black; color: rgb(254,254,254);text-align: left; font-size: 18px}
+.azul-claro {
+	padding:60px 60px;
+	background: rgb(5,140,204);
+	height: 500px;
+}
+.verde {
+	padding:60px 60px;
+	background: rgb(81,201,12);
+	height: 500px;
+}
+.blanco ul li {font-family: Gotham Black; color: rgb(254,254,254);text-align: left;font-size: 18px}
+
 #dise{
   background: url(../img/Diseño/1.png)  center center;
   background-size:cover;padding:200px 0;
